@@ -1,0 +1,14 @@
+var gulp        = require('gulp');
+var browserSync = require('browser-sync');
+
+gulp.task('default', function() {
+  browserSync({
+    server : {
+      baseDir : 'www'
+    }
+  });
+
+  gulp.watch('www/**/**', function() {
+    browserSync.reload();
+  });
+});
