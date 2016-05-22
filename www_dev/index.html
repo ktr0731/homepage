@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><% about['title'] %></title>
+    <title><%= about['title'] %></title>
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
@@ -47,8 +47,8 @@
               </div>
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center inner">
-                  <h1 class="animated fadeInDown"><% about['title'] %></h1>
-                  <p class="animated fadeInUp delay-05s"><% about['description'] %></p>
+                  <h1 class="animated fadeInDown"><%= about['title'] %></h1>
+                  <p class="animated fadeInUp delay-05s"><%= about['description'] %></p>
                 </div>
               </div>
             </div>
@@ -60,8 +60,8 @@
               <div class="col-md-8 col-md-offset-2 wp1">
                 <img src="img/avatar.jpg" alt="avatar">
                 <h1 class="arrow">Profile</h1>
-                <h2><% profile['name'] %></h2>
-                <p><% profile['description'] %></p>
+                <h2><% profile.name.forEach(function(name) { %><span><%= name %></span><% }); %></h2>
+                <p><% profile.description.forEach(function(sentence) { %><span><%= sentence %></span><br><% }); %></p>
               </div>
             </div>
           </div>
@@ -77,21 +77,21 @@
                       <i class="fa fa-heart shadow"></i>
                     </div>
                     <h2>Like</h2>
-                    <p><% details['like'] %></p>
+                    <p><% details.like.forEach(function(sentence) { %><span><%= sentence %></span><br><% }); %></p>
                   </div>
                   <div class="col-md-4 wp2 delay-05s">
                     <div class="icon">
                       <i class="fa fa-check shadow"></i>
                     </div>
                     <h2>Interesting</h2>
-                    <p><% details['Interesting'] %></p>
+                    <p><% details.interesting.forEach(function(sentence) { %><span><%= sentence %></span><br><% }); %></p>
                   </div>
                   <div class="col-md-4 wp2 delay-1s">
                     <div class="icon">
                       <i class="fa fa-code shadow"></i>
                     </div>
                     <h2>Skills</h2>
-                    <p><% details['skills'] %></p>
+                    <p><% details.skills.forEach(function(sentence) { %><span><%= sentence %></span><br><% }); %></p>
                   </div>
                   <div class="clearfix"></div>
                 </div>

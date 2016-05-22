@@ -4,12 +4,38 @@
     "description" : "The home page of a daydreamer"
   },
   "profile" : {
-    "name" : "Taro Aoki / ktr / Lycoris",
-    "description" : "Second Grade at University of Aizu<br>やりたいことがわからないエンジニア(仮)"
+    "name" : [
+      "Taro Aoki / ",
+      "ktr / ",
+      "Lycoris"
+    ],
+    "description" : [
+      "Second Grade at University of Aizu",
+      "やりたいことがわからないエンジニア(仮)"
+    ]
   },
   "details" : {
-    "like" : "Groove Coaster (音楽ゲーム)<br>新海誠作品 (アニメーション)<br>千と千尋の神隠し (アニメーション)<br>ノスタルジックさを感じる夏<br>絵を描くこと<br>...",
-    "interesting" : "Web development<br>CTF<br>Android<br>Network<br>...",
-    "skills" : "JavaScript<br>Java<br>HTML / CSS<br>Vim<br>..."
+    "like" : [
+      "Groove Coaster (音楽ゲーム)",
+      "新海誠作品 (アニメーション)",
+      "千と千尋の神隠し (アニメーション)",
+      "ノスタルジックさを感じる夏",
+      "絵を描くこと",
+      "..."
+    ],
+    "interesting" : [
+      "Web development",
+      "CTF",
+      "Android",
+      "Network",
+      "..."
+    ],
+    "skills" : [
+      "JavaScript",
+      "Java",
+      "HTML / CSS",
+      "NeoVim",
+      "..."
+    ]
   }
 }
