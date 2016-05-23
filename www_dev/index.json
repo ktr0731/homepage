@@ -40,7 +40,7 @@
   },
   "works" : [
     {
-      "img" : "no-image.jpg",
+      "img" : "no-image1.jpg",
       "name" : "性格判断プログラム",
       "date" : "Apr, 2012",
       "materials" : "C言語",
@@ -48,7 +48,7 @@
       "more" : ""
     },
     {
-      "img" : "no-image.jpg",
+      "img" : "no-image2.jpg",
       "name" : "うごメモはてなコメント取得スクリプト",
       "date" : "May, 2013",
       "materials" : "PHP",
@@ -56,20 +56,36 @@
       "more" : ""
     },
     {
-      "img" : "no-image.jpg",
-      "name" : "性格判断プログラム",
-      "date" : "Apr, 2012",
-      "materials" : "C言語",
-      "description" : "人生で初めて作ったプログラムかつ最大レベルの黒歴史。それでもプログラミングが楽しいと思えた理由の1つだと思います。",
-      "more" : "http://google.com"
+      "img" : "chatroom.png",
+      "name" : "チャットルーム",
+      "date" : "Oct, 2013",
+      "materials" : "HTML, CSS, PHP, JavaScript",
+      "description" : "うごメモの代替としてチャット兼ゲーム環境を作成。色々調べながらAjaxやTwitter認証を使って様々な要素を詰め込んだ記憶があります。",
+      "more" : ""
     },
     {
-      "img" : "no-image.jpg",
-      "name" : "性格判断プログラム",
-      "date" : "Apr, 2012",
-      "materials" : "C言語",
-      "description" : "人生で初めて作ったプログラムかつ最大レベルの黒歴史。それでもプログラミングが楽しいと思えた理由の1つだと思います。",
-      "more" : "http://google.com"
+      "img" : "",
+      "name" : "",
+      "date" : "",
+      "materials" : "",
+      "description" : "",
+      "more" : ""
+    },
+    {
+      "img" : "home-server.jpg",
+      "name" : "自宅Webサーバ",
+      "date" : "Oct, 2015",
+      "materials" : "Apache, Raspberry Pi 2",
+      "description" : "",
+      "more" : ""
+    },
+    {
+      "img" : "",
+      "name" : "",
+      "date" : "",
+      "materials" : "",
+      "description" : "",
+      "more" : ""
     }
   ]
 }
