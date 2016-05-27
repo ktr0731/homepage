@@ -111,5 +111,8 @@
       "description" : "アマデウス紅莉栖は何の関係もなく、実際は位置情報を送ると近くにあるグルコスが遊べるゲーセンを教えてくれるbot。ついでにDocomoの雑談対話APIも使ってる。",
       "more" : "https://github.com/lycoris0731/amadeus-kurisu"
     }
+  ],
+  "Activities" : [
+    {}
   ]
 }
