@@ -112,7 +112,31 @@
       "more" : "https://github.com/lycoris0731/amadeus-kurisu"
     }
   ],
-  "Activities" : [
-    {}
+  "activities" : [
+    {
+      "date" : "Oct. 28-29, 2015",
+      "name" : "CODE BLUE",
+      "link" : "http://codeblue.jp/2015/"
+    },
+    {
+      "date" : "Nov. 14, 2015",
+      "name" : "AVTOKYO",
+      "link" : "http://ja.avtokyo.org/"
+    },
+    {
+      "date" : "Dec. 5-6, 2015",
+      "name" : "SECCON Online CTF",
+      "link" : "http://2015.seccon.jp/seccon2015-online-ctf.html"
+    },
+    {
+      "date" : "Mar. 26-27, 2016",
+      "name" : "IoT & Security Hackathon",
+      "link" : "https://health2con.jp/hackathon/"
+    },
+    {
+      "date" : "May 15, 2016",
+      "name" : "CTF for ビギナーズ 長野",
+      "link" : "http://2015.seccon.jp/2016-05-ctf-for-2016.html"
+    }
   ]
 }

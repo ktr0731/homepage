@@ -168,6 +168,7 @@ Tables
 ========================================================================== */
 /* * Remove most spacing between table cells. */
 table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+th { text-align: center; font-size: 15px; color: #353535; text-transform: uppercase; }
 /* ==========================================================================
 Global Styles
 ========================================================================== */
