@@ -111,7 +111,6 @@
         <section class="portfolio text-center section-padding" id="portfolio">
           <div class="container">
             <div class="row">
-            <!-- delay 0.5, 1 -->
               <% works.forEach(function(work) { %>
               <div class="col-md-4 wp4">
                 <div class="overlay-effect effects clearfix">
@@ -143,7 +142,7 @@
         </section>
         <section class="portfolio text-center section-padding" id="portfolio">
             <div class="container">
-              <div class="row">
+              <div class="row animated fadeInUp delay-05s">
                 <table>
                   <thead>
                     <tr>
@@ -173,6 +172,20 @@
         </section>
         <footer>
           <div class="container">
+            <div class="row text-center">
+              <ul class="social-buttons">
+                <li><a href="https://twitter.com/ktr_0731" class="social-btn"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://github.com/lycoris0731" class="social-btn"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.facebook.com/aoki0731" class="social-btn"><i class="fa fa-facebook"></i></a></li>
+              </ul>
+            </div>
+            <div class="row text-center">
+              <% if (about.since.from == about.since.to) { %>
+                <p>© <%= about.since.from %> <%= about.me %></p>
+              <% } else { %>
+                <p>© <%= about.since.from %> - <%= about.since.to %> <%= about.me %></p>
+              <% } %>
+            </div>
             <div class="row">
               <div class="col-md-6">
                 <ul class="legals">
@@ -182,11 +195,6 @@
               </div>
               <div class="col-md-6 credit">
                 <p>Designed &amp; Developed by <a href="http://www.peterfinlan.com/">Peter Finlan</a> exclusively for <a href="http://tympanus.net/codrops/"><em>Codrops</em></a></p>
-                <ul class="social-buttons">
-                  <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li>
-                  <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
-                </ul>
               </div>
             </div>
           </div>

@@ -1,7 +1,12 @@
 {
   "about" : {
     "title" : "SYFM",
-    "description" : "The home page of a daydreamer"
+    "description" : "The home page of a daydreamer",
+    "me" : "Taro Aoki",
+    "since" : {
+      "from" : 2016,
+      "to" : 2016
+    }
   },
   "profile" : {
     "name" : [
