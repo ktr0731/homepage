@@ -169,7 +169,7 @@ Tables
 /* * Remove most spacing between table cells. */
 table { border-collapse: collapse; border-spacing: 0; width: 100%; }
 thead { border-bottom: solid 2px #dddddd; }
-th { text-align: center; font-size: 15px; color: #353535; text-transform: uppercase; }
+th { text-align: center; font-size: 15px; color: #353535; text-transform: uppercase; padding: 0.75em; }
 td { text-align: left; padding: 0.75em; }
 tbody tr { border: solid 1px #dddddd; border-left: 0; border-right: 0; }
 tr:nth-child(2n) { background-color: #f3f5f8;}
