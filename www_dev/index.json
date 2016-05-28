@@ -116,26 +116,36 @@
     {
       "date" : "Oct. 28-29, 2015",
       "name" : "CODE BLUE",
+      "as" : "ボランティアスタッフ",
+      "description" : "-",
       "link" : "http://codeblue.jp/2015/"
     },
     {
       "date" : "Nov. 14, 2015",
       "name" : "AVTOKYO",
+      "as" : "参加",
+      "description" : "-",
       "link" : "http://ja.avtokyo.org/"
     },
     {
       "date" : "Dec. 5-6, 2015",
       "name" : "SECCON Online CTF",
+      "as" : "参加(Team: kkks)",
+      "description" : "575位/872位",
       "link" : "http://2015.seccon.jp/seccon2015-online-ctf.html"
     },
     {
       "date" : "Mar. 26-27, 2016",
       "name" : "IoT & Security Hackathon",
+      "as" : "参加(アプリ・サービス部門, Team: HxH)",
+      "description" : "優勝",
       "link" : "https://health2con.jp/hackathon/"
     },
     {
       "date" : "May 15, 2016",
       "name" : "CTF for ビギナーズ 長野",
+      "as" : "参加",
+      "description" : "CTF: 10位/49位",
       "link" : "http://2015.seccon.jp/2016-05-ctf-for-2016.html"
     }
   ]
