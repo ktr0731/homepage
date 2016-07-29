@@ -160,6 +160,13 @@
       "as" : "参加",
       "description" : "CTF: 10位/49位",
       "link" : "http://2015.seccon.jp/2016-05-ctf-for-2016.html"
+    },
+    {
+      "date" : "Jul. 24, 2016",
+      "name" : "社内新入生向けLT",
+      "as" : "発表",
+      "description" : "-",
+      "link" : "-"
     }
   ]
 }
