@@ -39,7 +39,7 @@
       "JavaScript",
       "Java",
       "HTML / CSS",
-      "NeoVim",
+      "Neovim",
       "..."
     ]
   },
@@ -167,6 +167,13 @@
       "as" : "発表",
       "description" : "-",
       "link" : "-"
+    },
+    {
+      "date" : "Jul. 31, 2016",
+      "name" : "katagaitai勉強会#6 - 関東|easy",
+      "as" : "参加",
+      "description" : "-",
+      "link" : "https://atnd.org/events/78130"
     }
   ]
 }

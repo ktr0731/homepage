@@ -15,7 +15,7 @@ gulp.task('default', function() {
     browserSync.reload();
   });
 
-  gulp.watch(['www_dev/index.html', 'www_dev/index.json'], function (e) {
+  gulp.watch(['www_dev/*.html', 'www_dev/index.json'], function (e) {
     if (e.type != 'deleted') {
       var json = JSON.parse(fs.readFileSync('www_dev/index.json'));
 
