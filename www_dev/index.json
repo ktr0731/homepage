@@ -21,9 +21,10 @@
   },
   "details" : {
     "like" : [
-      "Groove Coaster (音楽ゲーム)",
-      "新海誠作品 (アニメーション)",
-      "千と千尋の神隠し (アニメーション)",
+      "Groove Coaster",
+      "STEINS;GATE",
+      "新海誠作品",
+      "千と千尋の神隠し",
       "ノスタルジックさを感じる夏",
       "絵を描くこと",
       "..."
@@ -37,7 +38,7 @@
     ],
     "skills" : [
       "JavaScript",
-      "Java",
+      "Android Java",
       "HTML / CSS",
       "Neovim",
       "..."
@@ -82,7 +83,7 @@
       "date" : "From Sep, 2015",
       "materials" : "Android, Java",
       "description" : "現在進行形で開発している。Groove Coasterという音楽ゲームのスコアを管理できるAndroidアプリで、思ったより進捗ないのでもう少し頑張りたい。",
-      "more" : "https://github.com/lycoris0731/Groover"
+      "more" : "//github.com/lycoris0731/Groover"
     },
     {
       "img" : "home-server.jpg",
@@ -96,7 +97,7 @@
       "img" : "nixie-clock.jpg",
       "name" : "ニキシー管時計",
       "date" : "Oct, 2015",
-      "materials" : "IN-14, ニキシー管時計キット(http://nixie-tube.com)",
+      "materials" : "IN-14, ニキシー管時計キット(//nixie-tube.com)",
       "description" : "Steins;Gateで登場したニキシー管を使った機器、「ダイバージェンスメーター」が欲しくて、キットを使って時計を製作。いずれ本物も作りたい…。",
       "more" : ""
     },
@@ -106,7 +107,7 @@
       "date" : "Mar, 2016",
       "materials" : "Android, Java",
       "description" : "IoT & Security HackathonにてチームHxHとして作成したクライアントアプリのモックアップ。時間が足りなすぎて思ったように作業が進まなかったので悔しかった。",
-      "more" : "https://github.com/lycoris0731/HxH"
+      "more" : "//github.com/lycoris0731/HxH"
     },
     {
       "img" : "amadeus-kurisu.jpg",
@@ -114,7 +115,7 @@
       "date" : "Apr, 2016",
       "materials" : "JavaScript, Node.js",
       "description" : "アマデウス紅莉栖は何の関係もなく、実際は位置情報を送ると近くにあるグルコスが遊べるゲーセンを教えてくれるbot。ついでにDocomoの雑談対話APIも使ってる。",
-      "more" : "https://github.com/lycoris0731/amadeus-kurisu"
+      "more" : "//github.com/lycoris0731/amadeus-kurisu"
     },
     {
       "img" : "panzer4reservation.jpg",
@@ -122,7 +123,7 @@
       "date" : "Jun, 2016",
       "materials" : "JavaScript, PhantomJS, CasperJS",
       "description" : "土日はいつも即満員になる立川シネマシティのガルパン極上爆音上映を予約するためのスクリプト。レンダリングを最小限にしているのでふつうより確実に速い。",
-      "more" : "https://github.com/lycoris0731/panzer4reservation"
+      "more" : "//github.com/lycoris0731/panzer4reservation"
     }
   ],
   "activities" : [
@@ -131,49 +132,49 @@
       "name" : "CODE BLUE",
       "as" : "参加(ボランティアスタッフ)",
       "description" : "-",
-      "link" : "http://codeblue.jp/2015/"
+      "link" : "//codeblue.jp/2015/"
     },
     {
       "date" : "Nov. 14, 2015",
       "name" : "AVTOKYO",
       "as" : "参加",
       "description" : "-",
-      "link" : "http://ja.avtokyo.org/"
+      "link" : "//ja.avtokyo.org/"
     },
     {
       "date" : "Dec. 5-6, 2015",
       "name" : "SECCON Online CTF",
       "as" : "参加(Team: kkks)",
       "description" : "575位/872位",
-      "link" : "http://2015.seccon.jp/seccon2015-online-ctf.html"
+      "link" : "//2015.seccon.jp/seccon2015-online-ctf.html"
     },
     {
       "date" : "Mar. 26-27, 2016",
       "name" : "IoT & Security Hackathon",
       "as" : "参加(アプリ・サービス部門, Team: HxH)",
       "description" : "優勝",
-      "link" : "https://health2con.jp/hackathon/"
+      "link" : "//health2con.jp/hackathon/"
     },
     {
       "date" : "May 15, 2016",
       "name" : "CTF for ビギナーズ 長野",
       "as" : "参加",
       "description" : "CTF: 10位/49位",
-      "link" : "http://2015.seccon.jp/2016-05-ctf-for-2016.html"
+      "link" : "//2015.seccon.jp/2016-05-ctf-for-2016.html"
     },
     {
       "date" : "Jul. 24, 2016",
       "name" : "社内新入生向けLT",
       "as" : "発表",
       "description" : "-",
-      "link" : "-"
+      "link" : "//www.nowhere.co.jp/blog/archives/20160808-105158.html"
     },
     {
       "date" : "Jul. 31, 2016",
       "name" : "katagaitai勉強会#6 - 関東|easy",
       "as" : "参加",
       "description" : "-",
-      "link" : "https://atnd.org/events/78130"
+      "link" : "//atnd.org/events/78130"
     }
   ]
 }
