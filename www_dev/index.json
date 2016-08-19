@@ -97,8 +97,8 @@
       "img" : "nixie-clock.jpg",
       "name" : "ニキシー管時計",
       "date" : "Oct, 2015",
-      "materials" : "IN-14, ニキシー管時計キット(//nixie-tube.com)",
-      "description" : "Steins;Gateで登場したニキシー管を使った機器、「ダイバージェンスメーター」が欲しくて、キットを使って時計を製作。いずれ本物も作りたい…。",
+      "materials" : "IN-14, ニキシー管時計キット(http://nixie-tube.com)",
+      "description" : "STEINS;GATEで登場したニキシー管を使った機器、「ダイバージェンスメーター」が欲しくて、キットを使って時計を製作。いずれ本物も作りたい…。",
       "more" : ""
     },
     {
@@ -114,7 +114,7 @@
       "name" : "アマデウス紅莉栖bot",
       "date" : "Apr, 2016",
       "materials" : "JavaScript, Node.js",
-      "description" : "アマデウス紅莉栖は何の関係もなく、実際は位置情報を送ると近くにあるグルコスが遊べるゲーセンを教えてくれるbot。ついでにDocomoの雑談対話APIも使ってる。",
+      "description" : "アマデウス紅莉栖は何の関係もなく、実際は位置情報を送ると近くにあるグルコスが遊べるゲーセンを教えてくれるbot。ついでにdocomoの雑談対話APIも使ってる。",
       "more" : "//github.com/lycoris0731/amadeus-kurisu"
     },
     {
