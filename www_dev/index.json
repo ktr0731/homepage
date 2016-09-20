@@ -57,7 +57,7 @@
       "img" : "no-image2.jpg",
       "name" : "うごメモはてなコメント取得スクリプト",
       "date" : "May, 2013",
-      "materials" : "PHP, うごメモはてなAPI",
+      "materials" : "PHP, うごメモはてな API",
       "description" : "当時ほぼ毎日利用していたうごメモはてながサービス終了を告知した際に作成。色々な人とチャット感覚で交流していたので、過去ログを保存する為に作成した。",
       "more" : ""
     },
@@ -66,14 +66,14 @@
       "name" : "チャットルーム",
       "date" : "Oct, 2013",
       "materials" : "HTML, CSS, PHP, JavaScript",
-      "description" : "うごメモの代替としてチャット兼ゲーム環境を作成。色々調べながらAjaxやTwitter認証を使って様々な要素を詰め込んだ記憶がある。",
+      "description" : "うごメモの代替としてチャット兼ゲーム環境を作成。色々調べながら Ajax や Twitter 認証を使って様々な要素を詰め込んだ記憶がある。",
       "more" : ""
     },
     {
       "img" : "aldila.jpg",
       "name" : "Aldila",
       "date" : "Nov, 2014",
-      "materials" : "C言語, DXライブラリ",
+      "materials" : "C 言語, DX ライブラリ",
       "description" : "「課題研究」という高校の授業の一環で5名で作成したシミュレーションゲーム。文化祭で展示したり、最優秀賞を貰って他校でプレゼンをしたので思い入れが強い。",
       "more" : ""
     },
@@ -82,15 +82,15 @@
       "name" : "Groover",
       "date" : "From Sep, 2015",
       "materials" : "Android, Java",
-      "description" : "現在進行形で開発している。Groove Coasterという音楽ゲームのスコアを管理できるAndroidアプリで、思ったより進捗ないのでもう少し頑張りたい。",
+      "description" : "現在進行形で開発している。Groove Coaster という音楽ゲームのスコアを管理できる Android アプリで、思ったより進捗ないのでもう少し頑張りたい。",
       "more" : "//github.com/lycoris0731/Groover"
     },
     {
       "img" : "home-server.jpg",
-      "name" : "自宅Webサーバ",
+      "name" : "自宅 Web サーバ",
       "date" : "Oct, 2015",
       "materials" : "Apache, Raspberry Pi 2",
-      "description" : "勉強のためにWebサーバを構築。サーバの仕組みからDNS、セキュリティなど様々な分野が学べたと思う。Webサーバ以外のサーバも構築してみたい。",
+      "description" : "勉強のために Web サーバを構築。サーバの仕組みから DNS、セキュリティなど様々な分野が学べたと思う。Web サーバ以外のサーバも構築してみたい。",
       "more" : ""
     },
     {
@@ -98,7 +98,7 @@
       "name" : "ニキシー管時計",
       "date" : "Oct, 2015",
       "materials" : "IN-14, ニキシー管時計キット(http://nixie-tube.com)",
-      "description" : "STEINS;GATEで登場したニキシー管を使った機器、「ダイバージェンスメーター」が欲しくて、キットを使って時計を製作。いずれ本物も作りたい…。",
+      "description" : "STEINS;GATE で登場したニキシー管を使った機器、「ダイバージェンスメーター」が欲しくて、キットを使って時計を製作。いずれ本物も作りたい…。",
       "more" : ""
     },
     {
@@ -106,7 +106,7 @@
       "name" : "Happinessメーター",
       "date" : "Mar, 2016",
       "materials" : "Android, Java",
-      "description" : "IoT & Security HackathonにてチームHxHとして作成したクライアントアプリのモックアップ。時間が足りなすぎて思ったように作業が進まなかったので悔しかった。",
+      "description" : "IoT & Security Hackathon にてチーム HxH として作成したクライアントアプリのモックアップ。時間が足りなすぎて思ったように作業が進まなかったので悔しかった。",
       "more" : "//github.com/lycoris0731/HxH"
     },
     {
@@ -114,7 +114,7 @@
       "name" : "アマデウス紅莉栖bot",
       "date" : "Apr, 2016",
       "materials" : "JavaScript, Node.js",
-      "description" : "アマデウス紅莉栖は何の関係もなく、実際は位置情報を送ると近くにあるグルコスが遊べるゲーセンを教えてくれるbot。ついでにdocomoの雑談対話APIも使ってる。",
+      "description" : "アマデウス紅莉栖は何の関係もなく、実際は位置情報を送ると近くにあるグルコスが遊べるゲーセンを教えてくれる bot。ついでに docomo の雑談対話 API も使ってる。",
       "more" : "//github.com/lycoris0731/amadeus-kurisu"
     },
     {
@@ -172,14 +172,14 @@
     },
     {
       "date" : "Jul. 24, 2016",
-      "name" : "社内新入生向けLT",
+      "name" : "社内新入生向け LT",
       "as" : "発表",
       "description" : "-",
       "link" : "//www.nowhere.co.jp/blog/archives/20160808-105158.html"
     },
     {
       "date" : "Jul. 31, 2016",
-      "name" : "katagaitai勉強会#6 - 関東|easy",
+      "name" : "katagaitai 勉強会#6 - 関東|easy",
       "as" : "参加",
       "description" : "-",
       "link" : "//atnd.org/events/78130"
