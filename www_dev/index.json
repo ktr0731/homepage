@@ -197,6 +197,20 @@
       "as" : "参加",
       "description" : "6位/14位",
       "link" : "//connpass.com/event/40909/"
+    },
+    {
+      "date" : "Oct. 20-21, 2016",
+      "name" : "CODE BLUE",
+      "as" : "参加(ボランティアスタッフ)",
+      "description" : "-",
+      "link" : "//codeblue.jp/2016/"
+    },
+    {
+      "date" : "Oct. 22, 2016",
+      "name" : "AVTOKYO",
+      "as" : "参加",
+      "description" : "-",
+      "link" : "//ja.avtokyo.org/avtokyo2016"
     }
   ]
 }
