@@ -132,6 +132,14 @@
       "materials" : "Shell Script",
       "description" : "君の名は。の極上爆音上映を予約するためのスクリプト。一度だけ Panzer 4 Reservation が負けたので、絶対に負けないよう書き直した。5秒で予約できる。",
       "more" : "//github.com/lycoris0731/your-name"
+    },
+    {
+      "img" : "clip.jpg",
+      "name" : "Clip",
+      "date" : "Oct, 2016",
+      "materials" : "Go",
+      "description" : "CLIP STUDIO PAINT のファイルを Git で管理するためのツール。手前味噌だけどかなり便利。",
+      "more" : "//github.com/lycoris0731/clip"
     }
   ],
   "activities" : [
