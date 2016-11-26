@@ -139,8 +139,16 @@
       "name" : "Clip",
       "date" : "Oct, 2016",
       "materials" : "Go",
-      "description" : "CLIP STUDIO PAINT のファイルを Git で管理するためのツール。手前味噌だけどかなり便利。",
+      "description" : "CLIP STUDIO PAINT のファイルを Git で管理するためのツール。コミット毎に画像を生成し、キャッシュを行っている。手前味噌だけどかなり便利。",
       "more" : "//github.com/lycoris0731/clip"
+    },
+    {
+      "img" : "go-groovecoaster.jpg",
+      "name" : "Go-GrooveCoaster",
+      "date" : "Nov, 2016",
+      "materials" : "Go",
+      "description" : "Groove Coaster のプレイスコアを見ることのできる、マイページのクライアントライブラリ。以前書いていた Groover のロジック部分を Go で書き直している。",
+      "more" : "//github.com/lycoris0731/go-groovecoaster"
     }
   ],
   "activities" : [
