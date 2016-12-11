@@ -239,9 +239,16 @@
     {
       "date" : "Dec. 4, 2016",
       "name" : "MLT",
-      "as" : "参加",
+      "as" : "参加/発表",
       "description" : "-",
       "link" : "//twitter.com/ktr_0731/status/805329072960090112"
+    },
+    {
+      "date" : "Dec. 11, 2016",
+      "name" : "SECCON 2016",
+      "as" : "参加(Team: wabisabi)",
+      "description" : "272位/930位",
+      "link" : "//score-quals.seccon.jp/question/"
     }
   ]
 }
