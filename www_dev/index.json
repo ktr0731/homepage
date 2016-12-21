@@ -149,6 +149,14 @@
       "materials" : "Go",
       "description" : "Groove Coaster のプレイスコアを見ることのできる、マイページのクライアントライブラリ。以前書いていた Groover のロジック部分を Go で書き直している。",
       "more" : "//github.com/lycoris0731/go-groovecoaster"
+    },
+    {
+      "img" : "tweet-nvim.jpg",
+      "name" : "Tweet.nvim",
+      "date" : "Dec, 2016",
+      "materials" : "Python3, Neovim",
+      "description" : "Neovim 上で動作する Twitter クライアント。Neovim の特徴の一つでもある、msgpack-RPC を使ったリモートプラグインアーキテクチャを利用している。",
+      "more" : "//github.com/lycoris0731/tweet.nvim"
     }
   ],
   "activities" : [
