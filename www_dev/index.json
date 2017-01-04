@@ -157,6 +157,14 @@
       "materials" : "Python3, Neovim",
       "description" : "Neovim 上で動作する Twitter クライアント。Neovim の特徴の一つでもある、msgpack-RPC を使ったリモートプラグインアーキテクチャを利用している。",
       "more" : "//github.com/lycoris0731/tweet.nvim"
+    },
+    {
+      "img" : "excl.jpg",
+      "name" : "excl",
+      "date" : "Dec, 2016",
+      "materials" : "Google Chrome, JavaScript",
+      "description" : "現在アクティブなウインドウから重複するタブをすべて1つにする Chrome 拡張機能。名前は exclude から付けたのでそんな深い意味はない。",
+      "more" : "//github.com/lycoris0731/excl"
     }
   ],
   "activities" : [
