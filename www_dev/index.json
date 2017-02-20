@@ -254,7 +254,7 @@
     {
       "date" : "Dec. 4, 2016",
       "name" : "MLT",
-      "as" : "参加/発表",
+      "as" : "発表",
       "description" : "-",
       "link" : "//twitter.com/ktr_0731/status/805329072960090112"
     },
@@ -268,9 +268,16 @@
     {
       "date" : "Feb. 4, 2017",
       "name" : "EJ-LT",
-      "as" : "参加/発表",
+      "as" : "発表",
       "description" : "-",
       "link" : ""
+    },
+    {
+      "date" : "Feb. 17, 2017",
+      "name" : "Developers Summit 2017",
+      "as" : "参加",
+      "description" : "-",
+      "link" : "//event.shoeisha.jp/devsumi/20170216"
     }
   ]
 }
