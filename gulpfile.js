@@ -15,7 +15,7 @@ gulp.task('default', () => {
     browserSync.reload();
   });
 
-  gulp.watch(['www_dev/*.html', 'www_dev/index.json'], e => {
+  gulp.watch(['www_dev/index.html', 'www_dev/index.json'], e => {
     if (e.type == 'deleted') {
       return;
     }
@@ -23,8 +23,8 @@ gulp.task('default', () => {
     const json = JSON.parse(fs.readFileSync('www_dev/index.json'));
 
     gulp.src('www_dev/index.html')
-        .pipe(plumber())
-        .pipe(ejs(json))
-        .pipe(gulp.dest('www'));
+      .pipe(plumber())
+      .pipe(ejs(json))
+      .pipe(gulp.dest('www'));
   });
 });
