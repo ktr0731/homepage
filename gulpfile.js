@@ -7,24 +7,35 @@ const ejs         = require('gulp-ejs');
 gulp.task('default', () => {
   browserSync({
     server : {
-      baseDir : 'www'
+      baseDir : 'dest'
     }
   });
 
-  gulp.watch('www/**/**', () => {
+  gulp.watch('dest/**/*', () => {
     browserSync.reload();
   });
 
-  gulp.watch(['www_dev/index.html', 'www_dev/index.json'], e => {
+  gulp.watch('src/**/*', e => {
     if (e.type == 'deleted') {
       return;
     }
 
-    const json = JSON.parse(fs.readFileSync('www_dev/index.json'));
+    const json = JSON.parse(fs.readFileSync('src/index.json'));
 
-    gulp.src('www_dev/index.html')
+    gulp.src('dest/index.html')
       .pipe(plumber())
       .pipe(ejs(json))
       .pipe(gulp.dest('www'));
   });
+});
+
+gulp.task('build', () => {
+  gulp.src(['src/**/', '!src/index.html', '!src/index.json'])
+    .pipe(gulp.dest('dest'));
+
+  const json = JSON.parse(fs.readFileSync('src/index.json'));
+  gulp.src('src/index.html')
+    .pipe(plumber())
+    .pipe(ejs(json))
+    .pipe(gulp.dest('dest'));
 });
