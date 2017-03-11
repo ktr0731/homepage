@@ -1,4 +1,5 @@
 deployment:
   production:
     branch: master
-    commands: ./bin/publish
+    commands:
+      - ./bin/publish
