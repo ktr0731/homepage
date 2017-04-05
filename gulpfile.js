@@ -25,7 +25,7 @@ gulp.task('default', () => {
     gulp.src('dest/index.html')
       .pipe(plumber())
       .pipe(ejs(json))
-      .pipe(gulp.dest('www'));
+      .pipe(gulp.dest('dest'));
   });
 });
 
