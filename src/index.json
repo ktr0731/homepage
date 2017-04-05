@@ -278,6 +278,20 @@
       "as" : "参加",
       "description" : "-",
       "link" : "//event.shoeisha.jp/devsumi/20170216"
+    },
+    {
+      "date" : "Mar. 23, 2017",
+      "name" : "Rust programmers' meetup",
+      "as" : "参加",
+      "description" : "-",
+      "link" : "//rust.connpass.com/event/49304/"
+    },
+    {
+      "date" : "Apr. 2, 2017",
+      "name" : "Friends LT",
+      "as" : "発表",
+      "description" : "-",
+      "link" : "//qiita.com/acomagu/items/ca7744798f34a1621a93/"
     }
   ]
 }
