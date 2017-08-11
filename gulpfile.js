@@ -22,7 +22,7 @@ gulp.task('default', () => {
 
     const json = JSON.parse(fs.readFileSync('src/index.json'));
 
-    gulp.src('dest/index.html')
+    gulp.src('src/index.html')
       .pipe(plumber())
       .pipe(ejs(json))
       .pipe(gulp.dest('dest'));
