@@ -1,212 +1,36 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="apple-mobile-web-app-title" content="syfm">
-    <meta name="application-name" content="syfm">
-    <meta name="theme-color" content="#ffffff">
-    <title><%= about['title'] %></title>
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <title>syfm</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" charset="utf-8">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="img/favicons/manifest.json">
-    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/flexslider.css" rel="stylesheet" >
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/queries.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-      </head>
-      <body id="top">
-        <header id="home">
-          <nav>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
-                  <nav class="pull">
-                    <ul class="top-nav">
-                      <li><a href="#profile">Profile<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#details">Details<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#portfolio">Works<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                      <li><a href="#activities">Activities<span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </nav>
-          <section class="hero" id="hero">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12 text-right navicon">
-                  <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center inner">
-                  <h1 class="animated fadeInDown"><%= about['title'] %></h1>
-                  <p class="animated fadeInUp delay-05s"><%= about['description'] %></p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </header>
-        <section class="profile text-center section-padding" id="profile">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <img src="img/avatar.png" alt="avatar">
-                <h1 class="arrow">Profile</h1>
-                <h2><% profile.name.forEach(function(name) { %><span><%= name %></span><% }); %></h2>
-                <p><% profile.description.forEach(function(sentence) { %><span><%= sentence %></span><br><% }); %></p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="details text-center section-padding" id="details">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Details</h1>
-                <div class="details-wrapper">
-                  <div class="col-md-4 wp2">
-                    <div class="icon">
-                      <i class="fa fa-heart shadow"></i>
-                    </div>
-                    <h2>Like</h2>
-                    <p><% details.like.forEach(function(sentence) { %><span><%= sentence %></span><br><% }); %></p>
-                  </div>
-                  <div class="col-md-4 wp2 delay-05s">
-                    <div class="icon">
-                      <i class="fa fa-check shadow"></i>
-                    </div>
-                    <h2>Interesting</h2>
-                    <p><% details.interesting.forEach(function(sentence) { %><span><%= sentence %></span><br><% }); %></p>
-                  </div>
-                  <div class="col-md-4 wp2 delay-1s">
-                    <div class="icon">
-                      <i class="fa fa-code shadow"></i>
-                    </div>
-                    <h2>Skills</h2>
-                    <p><% details.skills.forEach(function(sentence) { %><span><%= sentence %></span><br><% }); %></p>
-                  </div>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="works text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 section-padding">
-                <h1><i class="fa fa-puzzle-piece"></i>Works</h1>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="portfolio text-center section-padding" id="portfolio">
-          <div class="container">
-            <div class="row">
-              <% works.forEach(function(work) { %>
-              <div class="col-md-4 wp4">
-                <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                    <img src="img/works/<%= work.img %>" alt="Portfolio Item">
-                    <% if (work.more.length > 0) { %>
-                      <div class="overlay">
-                        <a href="<%= work.more %>" class="expand"><i class="fa fa-search"></i><br>View More</a>
-                        <a class="close-overlay hidden">x</a>
-                      </div>
-                    <% } %>
-                  </div>
-                </div>
-                <h2><%= work.name %></h2>
-                <p><span><%= work.date %></span><br><span><%= work.materials %></span><br><span><%= work.description %></p>
-              </div>
-              <% }); %>
-            </div>
-          </div>
-        </section>
-        <section class="activities text-center">
-          <div class="container">
-            <div class="row">
-            <div class="col-md-8 col-md-offset-2 section-padding">
-              <h1><i class="fa fa-location-arrow"></i>Activities</h1>
-            </div>
-            </div>
-          </div>
-        </section>
-        <section class="portfolio text-center section-padding" id="activities">
-            <div class="container">
-              <div class="row animated fadeInUp delay-05s">
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Date</th>
-                      <th>Event</th>
-                      <th>As</th>
-                      <th>Result</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <% activities.forEach(function(event) { %>
-                    <tr>
-                      <td><%= event.date %></td>
-                      <% if (event.link) { %>
-                        <td><a href=<%= event.link %>><%= event.name %></a></td>
-                      <% } else { %>
-                        <td><%= event.name %></td>
-                      <% } %>
-                      <td><%= event.as%></td>
-                      <td><%= event.description %></td>
-                    </tr>
-                    <% }); %>
-                  <tbody>
-                </table>
-              </div>
-          </div>
-        </section>
-        <footer>
-          <div class="container">
-            <div class="row text-center">
-              <ul class="social-buttons">
-                <li><a href="//twitter.com/ktr_0731" class="social-btn"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="//github.com/lycoris0731" class="social-btn"><i class="fa fa-github"></i></a></li>
-                <li><a href="//www.facebook.com/aoki0731" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="http://syfm.hatenablog.com" class="social-btn"><i class="fa fa-pencil-square-o"></i></a></li>
-                <li><a href="//speakerdeck.com/lycoris0731/" class="social-btn"><i class="fa fa-youtube-play"></i></a></li>
-              </ul>
-            </div>
-            <div class="row text-center">
-              <% if (about.since.from == about.since.to) { %>
-                <p>© <%= about.since.from %> <%= about.me %></p>
-              <% } else { %>
-                <p>© <%= about.since.from %> - <%= about.since.to %> <%= about.me %></p>
-              <% } %>
-            </div>
-            <div class="row text-right">
-              <p>Designed &amp; Developed by <a href="//www.peterfinlan.com/">Peter Finlan</a> exclusively for <a href="//tympanus.net/codrops/"><em>Codrops</em></a></p>
-            </div>
-          </div>
-        </footer>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/waypoints.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/scripts.js"></script>
-        <script src="js/jquery.flexslider.js"></script>
-        <script src="js/modernizr.js"></script>
-      </body>
-    </html>
+  </head>
+  <body>
+    <main>
+      <div id="profile">
+        <img id="icon" src="/img/icon.jpg" alt="">
+        <div>
+          <h2>ktr / Taro Aoki</h2>
+          <p id="social">
+            <a href="//twitter.com/ktr_0731" class="social-btn" title="Twitter"><i class="fa fa-twitter"></i></a>
+            <a href="//github.com/lycoris0731" class="social-btn" title="GitHub"><i class="fa fa-github"></i></a>
+            <a href="//www.facebook.com/aoki0731" class="social-btn" title="Facebook"><i class="fa fa-facebook"></i></a>
+            <a href="http://syfm.hatenablog.com" class="social-btn" title="Blog"><i class="fa fa-pencil-square-o"></i></a>
+            <a href="//speakerdeck.com/lycoris0731/" class="social-btn" title="Speaker Deck"><i class="fa fa-youtube-play"></i></a>
+          </p>
+          <ui>
+            <li>s123 at University of Aizu</li>
+            <li>Server side engineer</li>
+            <li>CTF (wabisabi)</li>
+            <li>Digital painting (hobby)</li>
+          </ui>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

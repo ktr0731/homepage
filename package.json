@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build": "gulp build",
+    "update": "curl -sq https://api.github.com/users/lycoris0731/repos  | jq 'map({title: .name, description: .description, url: .html_url, lang: .language, created_at: .created_at, fork: .fork})'"
   },
   "author": "Taro Aoki",
   "license": "MIT",
