@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  background: url(/img/bg.png);
+  background-color: rgb(43, 57, 88);
   background-size: cover;
   background-position: left center;
 }
@@ -23,6 +23,13 @@ main {
   top: 0;
   right: 0;
   z-index: 999;
+
+  transition-property: width;
+  transition-duration: 1s;
+}
+
+main.is-loading {
+  width: 100%;
 }
 
 h2 {
