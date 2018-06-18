@@ -24,12 +24,13 @@ main {
   right: 0;
   z-index: 999;
 
-  transition-property: width;
+  transition-property: width, background-color;
   transition-duration: 1s;
 }
 
 main.is-loading {
   width: 100%;
+  background: rgb(43, 57, 88);
 }
 
 h2 {
@@ -82,5 +83,15 @@ a {
 
   main {
     width: 100%;
+  }
+}
+
+@keyframes splash {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100%;
   }
 }

@@ -11,6 +11,7 @@ const f = () => {
             e.style["background-image"] = `url('data:image/png;base64,${b64}')`;
             e.classList.remove("is-loading");
             document.querySelector("main").classList.remove("is-loading");
+            document.querySelector("#profile").classList.remove("is-loading");
         });
 }
 
