@@ -1,6 +1,6 @@
 // (() => {
 let cachedBackgrounds = [];
-const bgs = ['bg1.png', 'bg2.png', 'bg3.png', 'bg4.png'];
+const bgs = ['bg1.png', 'bg2.png', 'bg3.png', 'bg4.png', 'bg5.png'];
 const e1 = document.querySelector("#bg1");
 const e2 = document.querySelector("#bg2");
 
