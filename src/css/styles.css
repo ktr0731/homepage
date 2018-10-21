@@ -6,27 +6,13 @@ html, body {
   height: 100%;
   padding: 0;
   margin: 0;
-  color: #bfbfbf;
-  background-color: rgb(43, 57, 88);
-  letter-spacing: 0.03rem;
-  line-height: 1.4rem;
+  color: #a5a5a5;
 }
 
-#bg1, #bg2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+body {
+  background-color: rgb(43, 57, 88);
   background-size: cover;
   background-position: left center;
-
-  transition-property: opacity;
-  transition-duration: 0.7s;
-}
-
-#bg2 {
-  opacity: 0;
 }
 
 main {
@@ -38,17 +24,16 @@ main {
   right: 0;
   z-index: 999;
 
-  transition-property: width, background-color;
+  transition-property: width;
   transition-duration: 1s;
 }
 
 main.is-loading {
   width: 100%;
-  background: rgb(43, 57, 88);
 }
 
 h2 {
-  color: #c5c5c5;
+  color: #ababab;
 }
 
 li {
@@ -91,27 +76,11 @@ a {
 }
 
 @media (max-width: 720px) {
+  body {
+    background-position: center center;
+  }
+
   main {
     width: 100%;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 100%;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 100%;
   }
 }
