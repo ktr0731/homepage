@@ -2,6 +2,7 @@
 
 html, body {
   font-family: 'Varela Round', sans-serif;
+  background-color: rgb(73, 57, 58);
   width: 100%;
   height: 100%;
   padding: 0;
@@ -12,7 +13,6 @@ html, body {
 body {
   background-size: cover;
   background-position: center right;
-  letter-spacing: 2px;
 }
 
 main {
@@ -40,6 +40,7 @@ main.is-loading {
 
 h2 {
   color: #ababab;
+  letter-spacing: 2px;
 }
 
 li {
@@ -87,8 +88,8 @@ a {
   }
 
   main {
-    height: 70vh;
-    width: 80vw;
-    margin: 15vh 10vw;
+    height: 100%;
+    width: 100%;
+    margin: 0;
   }
 }
